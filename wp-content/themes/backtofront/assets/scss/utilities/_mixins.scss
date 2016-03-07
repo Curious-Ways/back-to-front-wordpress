@@ -1,0 +1,53 @@
+/*==============================================================
+
+Mixins
+
+File: SCSS Partial (/scss/partials/_mixins.scss)
+Compiled to: css/global.css
+Created: 16/10/2015
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: All mixins
+Author: Back to Front
+Author URI: http://backtofront.london
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Fonts
+  -------------------------------------------------------- */
+
+  // http://w3bits.com/rem-fallback/
+  // @include font-size(12);
+
+  @mixin font-size($size, $base: $base-fnt-size) {
+    font-size: $size; // fallback for old browsers
+    font-size: ($size / $base) * 1rem;
+  }
+
+
+/* Links
+  -------------------------------------------------------- */
+
+ 	@mixin links-light {
+ 		@include link-colors(rgb(255,255,255), darken(rgb(255,255,255), 5%), darken(rgb(255,255,255), 5%), rgb(255,255,255), darken(rgb(255,255,255), 5%))
+ 	}
+
+ 	@mixin links-dark {
+ 		@include link-colors(rgb(0,0,0), lighten(rgb(0,0,0), 5%), lighten(rgb(0,0,0), 5%), rgb(0,0,0), lighten(rgb(0,0,0), 5%))
+ 	} 	
+
+
+/* Vertical Algin
+  -------------------------------------------------------- */ 
+
+  @mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }  

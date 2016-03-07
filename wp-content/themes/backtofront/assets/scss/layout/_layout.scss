@@ -1,0 +1,27 @@
+/* Clearfix
+  -------------------------------------------------------- */
+
+	%clearfix {
+		&:after {
+	  	content: "";
+	  	display: table;
+	  	clear: both;
+		}
+	} 
+
+
+/* Content wrappers
+  -------------------------------------------------------- */
+
+	// Base 
+
+	.content-wrapper {
+		@extend %clearfix;
+		padding: $space 0;
+		position: relative;
+
+		.content {
+			margin: 0 auto;
+			max-width: $max-width;
+		}
+	}

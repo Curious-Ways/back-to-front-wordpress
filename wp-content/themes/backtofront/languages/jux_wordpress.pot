@@ -1,0 +1,347 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: juxprose 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/juxprose\n"
+"POT-Creation-Date: 2015-06-12 21:51:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+#@ juxprose
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+#@ juxprose
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:27
+#@ juxprose
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+#@ juxprose
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+#@ juxprose
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38
+#: comments.php:59
+#@ juxprose
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41
+#: comments.php:62
+#@ juxprose
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:42
+#: comments.php:63
+#@ juxprose
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:75
+#@ juxprose
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:16
+#@ juxprose
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:16
+#, php-format
+#@ juxprose
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:18
+#, php-format
+#@ juxprose
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:45
+#: header.php:32
+#@ juxprose
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:100
+#@ juxprose
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:23
+#@ juxprose
+msgid "Skip to content"
+msgstr ""
+
+#: inc/extras.php:52
+#, php-format
+#@ juxprose
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:23
+#@ juxprose
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+#@ juxprose
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+#@ juxprose
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+#@ juxprose
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:86
+#, php-format
+#@ juxprose
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:91
+#, php-format
+#@ juxprose
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:108
+#: inc/template-tags.php:114
+#@ juxprose
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:110
+#, php-format
+#@ juxprose
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:116
+#, php-format
+#@ juxprose
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:122
+#@ juxprose
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:122
+#@ juxprose
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:122
+#@ juxprose
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:126
+#: template-parts/content-page.php:26
+#@ juxprose
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:143
+#, php-format
+#@ juxprose
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:145
+#, php-format
+#@ juxprose
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:147
+#, php-format
+#@ juxprose
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:149
+#, php-format
+#@ juxprose
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:149
+#@ juxprose
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:151
+#, php-format
+#@ juxprose
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:151
+#@ juxprose
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:153
+#, php-format
+#@ juxprose
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:153
+#@ juxprose
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:156
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:158
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:160
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:162
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:164
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:166
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:168
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:170
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:172
+#@ juxprose
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:175
+#, php-format
+#@ juxprose
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:179
+#, php-format
+#@ juxprose
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:181
+#@ juxprose
+msgid "Archives"
+msgstr ""
+
+#: search.php:16
+#, php-format
+#@ juxprose
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+#@ juxprose
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+#@ juxprose
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+#@ juxprose
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+#@ juxprose
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19
+#: template-parts/content-single.php:23
+#: template-parts/content.php:32
+#@ juxprose
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post 
+#: template-parts/content.php:25
+#, php-format
+#@ juxprose
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

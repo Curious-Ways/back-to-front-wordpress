@@ -1,0 +1,69 @@
+/*==============================================================
+
+Global
+
+File: SCSS Partial (/scss/global.scss)
+Compiled to: css/global.css
+Created: 16/10/2015
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Placeholder file for all SCSS imports
+Author: Back to Front
+Author URI: http://backtofront.london
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/*  Compass
+  -------------------------------------------------------- */
+
+@import "compass/css3"; 
+@import "compass/layout";
+@import "compass/typography";
+@import "compass/utilities";
+
+
+/*  Utilities
+  -------------------------------------------------------- */
+
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/helpers";
+@import "utilities/effects";
+
+
+/*  Base
+  -------------------------------------------------------- */
+
+@import "base/normalize";  
+@import "base/main";
+@import "base/lists";
+@import "base/links";
+@import "base/forms";
+@import "base/media";
+@import "base/tables";
+@import "base/text";
+@import "base/print";
+
+
+/*  Layout
+  -------------------------------------------------------- */
+
+@import "layout/layout";
+@import "layout/navigation"; 
+
+
+/*  Components
+  -------------------------------------------------------- */
+
+@import "components/buttons";
+
+
+/*  Wordpress
+  -------------------------------------------------------- */
+
+@import "wordpress/wp-articles";
+@import "wordpress/wp-images";
