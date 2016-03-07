@@ -1,0 +1,78 @@
+/*==============================================================
+
+Variables
+
+File: SCSS Partial (/scss/generic/_variables.scss)
+Compiled to: css/global.css
+Created: 16/10/2015
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: All variables
+Author: Back to Front
+Author URI: http://backtofront.london
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Base
+  -------------------------------------------------------- */
+
+  $base-clr: rgb(0,0,0);
+  $base-fnt: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  $base-fnt-size: 16px;
+  $base-fnt-weight: 300; 
+  $base-fnt-style: normal;    
+  $base-line-height: 1.5; 
+  $space: 1em; 
+
+
+/* Colors
+   Sample colors from http://flatuicolors.com/ 
+  -------------------------------------------------------- */ 
+
+  // Main
+  $clr-primary: rgb(127, 140, 141); // Concrete #7f8c8d 
+  $clr-secondary: rgb(149, 165, 166); // Asbestos #95a5a6
+
+  // Key
+  $clr-site-bckgrd: rgb(236, 240, 241); // Clouds #ecf0f1 
+  $clr-keyline: rgb(189, 195, 199); // Silver #bdc3c7
+  $clr-bckgrd: rgb(255, 255, 255); // White #ffffff
+  $clr-utility: rgb(22, 160, 133); // Green Sea #16a085 
+  $clr-field: rgb(255, 255, 255); // White #ffffff
+
+  // Success & Error
+  $clr-error: rgb(255,0,0);
+  $clr-success: rgb(63,195,128);
+
+
+/* Fonts
+  -------------------------------------------------------- */ 
+
+  // Weights
+  $fnt-bold: 700;
+
+  // Sizes
+  $fnt-lrg: 48;
+  $fnt-med: 24;
+  $fnt-sml: 12;
+
+
+/* Layout
+  -------------------------------------------------------- */ 
+
+  $max-width: 1024px;
+
+
+/* Breakpoints
+  -------------------------------------------------------- */
+
+  $bp-sml: "only screen and (max-width: 480px)";
+  $bp-sml-up: "only screen and (min-width: 481px)";
+  $bp-med: "only screen and (min-width: 481px) and (max-width: 1023px)"; 
+  $bp-lrg: "only screen and (min-width: 1024px)";
+
+  // @media #{$small} { }

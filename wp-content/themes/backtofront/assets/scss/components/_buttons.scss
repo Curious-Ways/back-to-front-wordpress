@@ -1,0 +1,61 @@
+/*==============================================================
+
+Buttons
+
+File: SCSS Partial (/scss/objects/_buttons.scss)
+Compiled to: css/style.css
+Created: 16/10/2015
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Buttons
+Author: Back to Front
+Author URI: http://backtofront.london
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+// Base
+
+%btn {
+	border: none;
+	display: inline-block;
+	padding: $space;
+	color: #fff;
+	font-weight: $fnt-bold;
+	text-transform: uppercase;
+}
+
+// Mixin
+
+@mixin btn-theme($btn-color) {
+
+	@extend %btn;
+	background-color: $btn-color;
+
+	&:hover,
+	&:active {
+		background-color: darken($btn-color, 10%);
+	}
+}
+
+// Colors
+
+%primary {
+	@include btn-theme($clr-primary);
+}
+
+%secondary {
+	@include btn-theme($clr-secondary);
+}
+
+// Buttons
+
+.btn {
+	@extend %primary;
+}
+
+.submit {
+	@extend %secondary
+}

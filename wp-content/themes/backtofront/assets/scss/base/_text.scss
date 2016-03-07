@@ -1,0 +1,64 @@
+/*==============================================================
+
+Text
+
+File: SCSS Partial (/scss/base/_text.scss)
+Compiled to: css/global.css
+Created: 16/10/2015
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Text styles
+Author: Back to Front
+Author URI: http://backtofront.london
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Blockquotes
+  -------------------------------------------------------- */
+
+  blockquote {
+    color: lighten($clr-primary, 5%);
+    font-style: italic;
+    position: relative;
+  }
+
+
+/* Rule
+  -------------------------------------------------------- */
+
+  hr {
+    border: 0;
+    height: 2px;
+    background: $clr-keyline;
+    margin: $space 0;
+  }
+
+
+/* Misc
+  -------------------------------------------------------- */
+  
+  address {
+    margin-bottom: $space;
+  }
+
+  abbr {
+    border-bottom: 1px dotted $clr-primary;
+    cursor: help;
+  }
+
+  acronym {
+    font-weight: $fnt-bold;
+    font-style: italic;
+  }
+
+  cite {
+    font-weight: $fnt-bold;
+  } 
+  
+  q {
+    font-style: italic;
+  } 

@@ -1,0 +1,72 @@
+/*==============================================================
+
+Wordpress > Images
+
+File: SCSS Partial (/scss/objects/_wp-images.scss)
+Compiled to: css/global.css
+Created: 16/10/2015
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Specific to Wordpress
+Author: Back to Front
+Author URI: http://backtofront.london
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Images
+  -------------------------------------------------------- */
+
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.wp-caption {
+	border: 1px solid $clr-keyline;
+	margin-bottom: $space;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 1.2% auto 0;
+	max-width: 98%;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	margin: $space 0;
+}
+
+
+/* Gallery
+  -------------------------------------------------------- */
+
+.site-content .gallery {
+	margin-bottom: $space;
+}
+.gallery-caption {
+	margin: $space 0;
+}
+.site-content .gallery a img {
+	border: none;
+	height: auto;
+	max-width: 90%;
+}
+.site-content .gallery dd {
+	margin: 0;
+}
+.site-content .gallery-columns-4 .gallery-item {
+}
+.site-content .gallery-columns-4 .gallery-item img {
+}
