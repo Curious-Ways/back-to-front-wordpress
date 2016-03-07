@@ -15,6 +15,68 @@ if( function_exists('acf_add_options_page') ) {
 
 }
 
+/**
+ * CPT - Projects
+ */
+
+function cpt_projects() {
+
+	$labels = array(
+		'name'                  => _x( 'Projects', 'Post Type General Name', 'backtofront' ),
+		'singular_name'         => _x( 'Project', 'Post Type Singular Name', 'backtofront' ),
+		'menu_name'             => __( 'Projects', 'backtofront' ),
+		'name_admin_bar'        => __( 'Projects', 'backtofront' ),
+		'archives'              => __( 'Project Archives', 'backtofront' ),
+		'parent_item_colon'     => __( 'Parent Project:', 'backtofront' ),
+		'all_items'             => __( 'All Projects', 'backtofront' ),
+		'add_new_item'          => __( 'Add New Project', 'backtofront' ),
+		'add_new'               => __( 'Add New', 'backtofront' ),
+		'new_item'              => __( 'New Project', 'backtofront' ),
+		'edit_item'             => __( 'Edit Project', 'backtofront' ),
+		'update_item'           => __( 'Update Project', 'backtofront' ),
+		'view_item'             => __( 'View Project', 'backtofront' ),
+		'search_items'          => __( 'Search Project', 'backtofront' ),
+		'not_found'             => __( 'Not found', 'backtofront' ),
+		'not_found_in_trash'    => __( 'Not found in Trash', 'backtofront' ),
+		'featured_image'        => __( 'Featured Image', 'backtofront' ),
+		'set_featured_image'    => __( 'Set featured image', 'backtofront' ),
+		'remove_featured_image' => __( 'Remove featured image', 'backtofront' ),
+		'use_featured_image'    => __( 'Use as featured image', 'backtofront' ),
+		'insert_into_item'      => __( 'Insert into item', 'backtofront' ),
+		'uploaded_to_this_item' => __( 'Uploaded to this item', 'backtofront' ),
+		'items_list'            => __( 'Items list', 'backtofront' ),
+		'items_list_navigation' => __( 'Items list navigation', 'backtofront' ),
+		'filter_items_list'     => __( 'Filter items list', 'backtofront' ),
+	);
+	$args = array(
+		'label'                 => __( 'Project', 'backtofront' ),
+		'description'           => __( 'Back to Front projects', 'backtofront' ),
+		'labels'                => $labels,
+		'supports'              => array( 'title', 'thumbnail', 'custom-fields', 'page-attributes', ),
+		'hierarchical'          => false,
+		'public'                => true,
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+		'menu_position'         => 5,
+		'menu_icon'             => 'dashicons-portfolio',
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => true,		
+		'exclude_from_search'   => false,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'page',
+	);
+	register_post_type( 'projects', $args );
+
+}
+add_action( 'init', 'cpt_projects', 0 );
+
+
+/**
+ * Set up
+ */
+
 if ( ! function_exists( 'backtofront_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
